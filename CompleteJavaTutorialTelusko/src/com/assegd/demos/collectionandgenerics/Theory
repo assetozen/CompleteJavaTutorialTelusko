@@ -1,0 +1,41 @@
+
+            ------------------------------------------------
+                        colletion : is a theory or concept
+                        Collection: is an interface
+                        Collections:- is a class
+            ------------------------------------------------
+
+1. Creating Collection
+    - creating an array of flexible size which is called ArrayList
+    - if you know the size and it is fixed then go for an Array since it is faster than Collection
+
+    Collection values = new ArrayList();
+                values.add(5);
+                values.add(6);
+                values.("Assegd");
+2. To specify only to have same type of values then we use Generics
+    Collection<Integer> values = new ArrayList<>();
+                    values.add(5);
+                    values.add(6);
+                    values.("Assegd"); // this value will have error since we are specifying only to use Integer values
+
+3. To specify the index number we will use List instead of Collection, since collection doesnt work with index number
+    - the order in which u get the elements is always fixed
+    - u can have duplicate element but unique index number
+    - list is mutable, u can apply mutability(update it by sorting its values and doing other things)
+    List<Integer> values = new ArrayList<>();
+                  values.add(5);
+                  values(6);
+4. Not to have duplicate values unlike List we can use an interface Set and its implementation HashSet.
+    - the ordere in which u get the elements is RANDOM
+
+    Set<Integer> numbers = new HashSet<>(); :- HashSet will give u the elements in unsorted format
+    Set<Integer> numbers = new TreeSet<>(); :- TreeSet will give u the elements in sorted format
+
+5. Map interface can also be implemented
+    - u will not have index number for every element
+    - u can have key-value pair Map<key,value>
+    - it can be implemented using two classes
+        - HashMap
+        - HashTable
+    Map<Integer, String> m = new HashMap<>();
