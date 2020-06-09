@@ -1,0 +1,54 @@
+---------------------java 10 features ---------------
+Links: https://www.baeldung.com/java-10-overview
+            Details of var keyword
+                    https://www.baeldung.com/java-10-local-variable-type-inference
+
+
+1 var keyword to create variables
+        - mostly recommended for local variables
+2 Unmodifiable Collections (any intention to modify unmodifiable collections will result error)
+    -List copy copyOf()
+           - copies the entire list to a new one but gives unmodifiable copy of it
+    -toUnmodifiable*()
+            - u can turn any collection to unmodifiable one
+                     List<Integer> evenList = someIntList.stream()
+                          .filter(i -> i % 2 == 0)
+                          .collect(Collectors.toUnmodifiableList());
+                        evenList.add(4);
+                 -  throws exception since we changed the list to unmodifiable one
+3 Optional*.orElseThrow
+    - orElseThrow()which doesn't take any argument and throws NoSuchElementException if no value is present:
+                @Test
+                public void whenListContainsInteger_OrElseThrowReturnsInteger() {
+                    Integer firstEven = someIntList.stream()
+                      .filter(i -> i % 2 == 0)
+                      .findFirst()
+                      .orElseThrow();
+                    is(firstEven).equals(Integer.valueOf(2));
+                }
+4 Performance improvements :- with no need for any code change, u will get it just for using jdk 10
+    - Parallel full GC for G1
+    - Application Class-Data Sharing
+            - get list of classes to archive
+            - create the AppCDS archive
+            - use the AppCDs archive
+    - Experimental Java-Based JIT Compiler
+5 Container Awareness
+    - JVMs are now aware of being run in a Docker container
+6 Root Certificates
+7 Deprecations and Removals
+    - Command Lin Options and Tools
+        javah has been removed  now javac -h can be used instead
+    - APIs
+        - updated
+8 Time-Based release Versioning
+    - New java release every 6 month
+    - support for the feature release will last only for six months
+    - long-term support release will be marked as LTS. support for such release will be for three years
+
+java -version will
+    - contain date to see how old the release is
+            $ java -version
+            openjdk version "10" 2018-03-20
+            OpenJDK Runtime Environment 18.3 (build 10+46)
+            OpenJDK 64-Bit Server VM 18.3 (build 10+46, mixed mode)

@@ -1,0 +1,42 @@
+---------------------- Java 11 Features -------------------------
+selected by me
+
+1. running classes from cmd
+            - earlier
+                    javac -d classes HelloWorld.java
+                    java -cp classes HelloWorld
+            - now  -> no need to compile
+                    java HelloWorld.java
+2. Http Client
+    - HTTP/1.1 and HTTP/2 and websockets
+    - both synchronous and asynchronous programming models
+    - handles request and response bodies as reactive-streams
+    - follows the familiar builder pattern
+3. TLS 1.3
+        - security
+4. Java Flight Recorder
+    - collecting and recording data in the JVM runtime
+    - it allows you to catch errors that are diffuclt to catch in development time
+5. ZGC (Predictable, low latency, large heap GC)
+    - multi tera byte heaps
+    - Max GC pause time (10ms)
+    - Max application throughput reduction 15%
+    - it is enabled with
+            -XX:+UnlockExperimentalVMOptions-XX:+UseZGC
+6. Create Variables using local-variable type inference
+        From -> ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        To   -> var outputStream = new ByteArrayOutputStream();
+7. Create lambda expression with type inferred local-variables as lambda parameters
+    - lambda expressions could be explicitly typed:
+        (Item x, int y) -> x.process(y);
+    - lambda expressions could be implicitly typed:
+        ( x, y) -> x.process(y);
+    - Now lambda expressions can also be implicitly typed with the var syntax:
+        (var x, var y) -> x.process(y);
+    - only limitation you can not mix var and non-var in implicitly and explicitly typed lambda expressions
+        (var x, y) -> x.process(y);   ---->>> implicityl typed
+        (var x, var y) -> x.process(y); -----> explicitly
+
+-------------------------------- Featurees link ------------------------
+Link :- https://www.azul.com/blog/90-new-features-and-apis-in-jdk-11/
+

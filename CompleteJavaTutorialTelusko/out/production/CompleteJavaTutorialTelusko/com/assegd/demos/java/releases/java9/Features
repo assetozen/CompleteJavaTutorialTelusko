@@ -1,0 +1,85 @@
+----------------------- Java 9 Features ------------------------
+Java 9 features are very different from earlier versions.
+
+1:--- We have Jigsaw project (Modularity) in Java 9.
+Jigsaw was planned to release in 2008 then 2014 but due to some reasons it got delayed.
+Now Jigsaw is here in Java 9 with its powerful feature.
+It provides a modularity feature
+
+2:--- Second amazing feature of Java 9 is REPL (Read Eval Print Loop) with the help of JShell
+        - install jdk, set ur environment variable
+        -open cmd and check java -version
+                - to get in to jshell write -> jshell
+                        - you can write any code you want and see the result right away
+                            - 1+1 -> will print $1 ==> 2
+                            - u can use $1 as a variable for further use
+                            - u can create variables:- int a = 5
+                            - u can set feedback by changing the type of feedback
+                                -> /set feedback verbote
+                           - now lets create a variable -> int k = 1;
+                                -> output will be -> k==>2
+                                                    | created variable k : int
+                        - semi colon is not a must to add for a single line code but for multiple lines
+                        - to see all the commands u have used so far "/list"
+                                -> will display all the commands with their id number
+                        - if you want to edit one of the commands, then u can access them via their id number
+                                -> /edit  id_num
+                                        -> will open editor with the part that u wanna edit, simple do ur changes and accpet and exit
+                                -> now if you check the list again then u will see the changes u made
+
+                        - single and doubble tabs, after writing anything Eg:- String
+                                ->Single tab:- will give u suggessions
+                                ->double tab(clicking tab afer see the suggessions):- will give u documentations
+                        - /vars :- will show u the variables u have created
+                        - /methods:- will show u the methods u have created so far
+                        - /history :- will display everything u wrote before this command as history
+                        - /imports :- will show all the packages imported
+                        - shortcut to import any library
+                                -> Write the name of the lib you want to import
+                                    ->press SHIFT+TAb then 'i'
+                                            -> example:- JFrame - then SHIFT+TAB then i
+                                                    - choose 0 do nothing or 1 import
+                         - /save file
+                         - /open file
+                                - in a directory you can open any class
+                         - /types
+                                    lists opened files and created classes and interfaces
+                         - /!
+                             will execute the last statement used
+                        - /drop var,class methodd
+                                drops anything u write after the 7drop
+
+
+                - to exit from jshell       -> /exit or ctrl+D
+
+3:--- Another feature is it has enahanced the Stream API
+
+4:--- Next enhancement is we can now define private methods in Java Interface
+
+5:--- We have G1 garbage collector in Java 9
+
+6:--- Another enhancement is in Http/2 protocol.
+
+
+-------------------------------- Java 9 Features from other reference links --------------------------------
+Link:- https://www.journaldev.com/13121/java-9-features-with-examples
+
+Some of the important java 9 features are;
+
+Java 9 REPL (JShell)
+Factory Methods for Immutable List, Set, Map and Map.Entry
+Private methods in Interfaces
+Java 9 Module System
+Process API Improvements
+Try With Resources Improvement
+CompletableFuture API Improvements
+Reactive Streams
+Diamond Operator for Anonymous Inner Class
+Optional Class Improvements
+Stream API Improvements
+Enhanced @Deprecated annotation
+HTTP 2 Client
+Multi-Resolution Image API
+Miscellaneous Java 9 Features
+
+

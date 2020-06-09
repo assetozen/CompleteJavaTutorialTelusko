@@ -1,0 +1,40 @@
+
+Link: https://www.javatpoint.com/java-8-features
+---------------------------- Features ----------------------
+
+Java 8 provides following features for Java Programming:
+
+Lambda expressions,
+Method references,
+Functional interfaces,
+Stream API,
+Default methods,
+Base64 Encode Decode,
+Static methods in interface,
+Optional class,
+Collectors class,
+ForEach() method,
+Parallel array sorting,
+Nashorn JavaScript Engine,
+Parallel Array Sorting,
+Type and Repating Annotations,
+IO Enhancements,
+Concurrency Enhancements,
+JDBC Enhancements etc.
+
+
+-----------------------Java 8 Features from other references --------------------------------------------
+Link: https://www.journaldev.com/2389/java-8-features-with-examples
+
+Java 8 Features
+Some of the important Java 8 features are;
+
+forEach() method in Iterable interface
+default and static methods in Interfaces
+Functional Interfaces and Lambda Expressions
+Java Stream API for Bulk Data Operations on Collections
+Java Time API
+Collection API improvements
+Concurrency API improvements
+Java IO improvements
+Miscellaneous Core API improvements
