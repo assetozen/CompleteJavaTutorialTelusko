@@ -1,0 +1,13 @@
+
+
+Getting access of some class/inteface by using an adaptor
+
+For this example
+        - school class want to create an instance of interface p and implement its functionalities
+        - there is pilotpen class which is not fully accessable
+        - penadaptor class(which impls p interface) created to access pilotpen class and create isntance of it
+        to implement its method
+        - in school class we have create obj of penadaptor
+            - assignmentwork object uses to set object the penadaptor's object
+
+        
