@@ -1,6 +1,10 @@
 package com.assegd.demos.java.releases.java8.stream;
 
+<<<<<<< HEAD
 //import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput; // commented when changing jdk from 1.8 to 11
+=======
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+>>>>>>> 594d1240dd5c2fbb791561a8bc408b1daa12a2cf
 
 import java.util.ArrayList;
 import java.util.Arrays;

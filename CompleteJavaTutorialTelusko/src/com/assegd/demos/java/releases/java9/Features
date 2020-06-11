@@ -60,6 +60,7 @@ It provides a modularity feature
 
 6:--- Another enhancement is in Http/2 protocol.
 
+<<<<<<< HEAD
 
 -------------------------------- Java 9 Features from other reference links --------------------------------
 Link:- https://www.journaldev.com/13121/java-9-features-with-examples
@@ -83,3 +84,5 @@ Multi-Resolution Image API
 Miscellaneous Java 9 Features
 
 
+=======
+>>>>>>> 594d1240dd5c2fbb791561a8bc408b1daa12a2cf

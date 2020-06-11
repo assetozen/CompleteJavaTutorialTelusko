@@ -20,6 +20,7 @@ Parallel Array Sorting,
 Type and Repating Annotations,
 IO Enhancements,
 Concurrency Enhancements,
+<<<<<<< HEAD
 JDBC Enhancements etc.
 
 
@@ -38,3 +39,6 @@ Collection API improvements
 Concurrency API improvements
 Java IO improvements
 Miscellaneous Core API improvements
+=======
+JDBC Enhancements etc.
+>>>>>>> 594d1240dd5c2fbb791561a8bc408b1daa12a2cf
