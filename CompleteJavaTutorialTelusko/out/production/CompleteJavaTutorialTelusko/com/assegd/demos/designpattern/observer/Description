@@ -1,0 +1,5 @@
+
+
+- it has observer and subject
+    Example: Youtub channel as -> subject
+             subscribers as ----> observer

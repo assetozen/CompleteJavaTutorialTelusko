@@ -39,7 +39,6 @@ It provides a modularity feature
                                     ->press SHIFT+TAb then 'i'
                                             -> example:- JFrame - then SHIFT+TAB then i
                                                     - choose 0 do nothing or 1 import
-<<<<<<< HEAD
                          - /save file
                          - /open file
                                 - in a directory you can open any class
@@ -49,8 +48,6 @@ It provides a modularity feature
                              will execute the last statement used
                         - /drop var,class methodd
                                 drops anything u write after the 7drop
-=======
->>>>>>> 594d1240dd5c2fbb791561a8bc408b1daa12a2cf
 
 
                 - to exit from jshell       -> /exit or ctrl+D

@@ -1,0 +1,7 @@
+
+Prototype design pattern
+    - example:- creating an object from DB takes time so lets say we have created the first object from the DB
+            - planning to create second object from the already crated object instead of going to DB
+                    - this is called prototype design pattern
+                            - it simply clones the already created object
+                                - something like cloning or copying the first object
