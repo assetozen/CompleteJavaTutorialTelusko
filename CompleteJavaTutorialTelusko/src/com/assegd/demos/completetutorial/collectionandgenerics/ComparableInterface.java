@@ -23,7 +23,7 @@ class Stud implements Comparable<Stud>{
     }
 
     public int compareTo(Stud s) {
-       //return marks>s.marks?1:-1; // cpompares based on marks
+       //return marks>s.marks?1:-1; // compares based on marks
         return name.length()>s.name.length()?1:-1; // compares based on length of name
     }
 }
@@ -37,8 +37,8 @@ public class ComparableInterface {
         studs.add(new Stud(25,"Noah", 25));
         studs.add(new Stud(26,"Assefa", 36));
 
-        /** Sorting based on the implemeted comparable method in Stud class  and compare by name length**/
-        System.out.println("\nSorting based on the implemeted comparable method in Stud class  and compare by name length");
+        /** Sorting based on the implemented comparable method in Stud class  and compare by name length**/
+        System.out.println("\nSorting based on the implemented comparable method in Stud class  and compare by name length");
         Collections.sort(studs);
         for (Stud s : studs){
             System.out.println(s);

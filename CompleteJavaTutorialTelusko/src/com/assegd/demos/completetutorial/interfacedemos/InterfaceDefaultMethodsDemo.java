@@ -9,18 +9,18 @@ package com.assegd.demos.completetutorial.interfacedemos;
 
 interface  Demo{
     void abc();
-    public default void show(){
+    default void show(){
         System.out.println("in show");
     }
 }
 
 class DemoImpl implements  Demo{
     public void abc() {
-        System.out.println("in abc");
+        System.out.println("in DemoImpl abc");
     }
 
     public void show() {
-        System.out.println("in new Show");
+        System.out.println("in DemoImpl new Show");
     }
 }
 public class InterfaceDefaultMethodsDemo {

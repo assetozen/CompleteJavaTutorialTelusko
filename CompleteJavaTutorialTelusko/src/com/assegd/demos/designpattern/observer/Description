@@ -1,5 +1,5 @@
 
 
 - it has observer and subject
-    Example: Youtub channel as -> subject
+    Example: Youtube channel as -> subject
              subscribers as ----> observer

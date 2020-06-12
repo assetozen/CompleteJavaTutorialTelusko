@@ -2,7 +2,7 @@ package com.assegd.demos.completetutorial.anonymousclassdemos;
 
 /**
  * - lets imagine that we want to create a class which will override a single method of its super class
- * - instead of creating a new class to override its superclass method, we can simply creat object of the super class and
+ * - instead of creating a new class to override its superclass method, we can simply create object of the super class and
  * create an anonymous class(a class which doesn't have a name) for it
  * Anonymous class:- to use it only once
  *                :- its scope is only in the created places

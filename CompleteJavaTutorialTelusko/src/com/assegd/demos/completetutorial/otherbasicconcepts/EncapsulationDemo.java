@@ -13,7 +13,7 @@ class Student {
 
     public void setRollNo(int rollNo) {
         this.rollNo = rollNo;
-        System.out.println("roll number clreated or updated");
+        System.out.println("roll number created or updated");
     }
 
     public String getName() {
@@ -33,7 +33,8 @@ public class EncapsulationDemo {
         s1.setName("Assegd");
         s1.setRollNo(123);
 
-        System.out.println(s1.getRollNo());
+        System.out.println("Name of user: "+s1.getName());
+        System.out.println("Roll num of user:"+ s1.getRollNo());
 
     }
 }

@@ -2,7 +2,7 @@ package com.assegd.demos.completetutorial.interfacedemos;
 
 /**
  * Static methods:- to call the methods from interface u can create static methods
- * Variables in interface: if you created a variable in interfaces by default it becomes constant even if it doesnt have final keyword
+ * Variables in interface: if you created a variable in interfaces by default it becomes constant even if it doesn't have final keyword
  */
 
 interface Demoss {
@@ -15,7 +15,7 @@ interface Demoss {
 
 class DemossImpl implements Demoss{
     public void abc() {
-           // num = 9; // can not updated the variable initialized in interface
+           // num = 9; // can not update the variable initialized in interface
     }
 }
 

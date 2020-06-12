@@ -17,8 +17,10 @@ public class OperatingSystemFactory {
                 return new Android();
             case "IOS":
                 return new IOS();
-            default:
+            case "Windows":
                 return new Windows();
+            default:
+                return new UnknownOS();
         }
     }
 

@@ -6,12 +6,12 @@ import java.io.InputStreamReader;
 /**
  * CHECKED EXCEPTION:- when a compiler knows the exception and prompts you to do something about it
  * UNCHECKED EXCEPTION:- when a compiler don't know the exception
- *                    :- except RuntTime Exceptions all the other exceptions are CHECKED EXCEPTIONs
+ *                    :- except RuntTime Exceptions all the other exceptions are CHECKED EXCEPTION
  */
 
 /**
  * In this case the main method is throwing IOException for the BufferredReader
- * Everytime you use BufferredReader you have to either handle it using try.-.catch or throws
+ * Every time you use BufferredReader you have to either handle it using try.-.catch or throws
  *                               - also since you are accessing a resource, dont' forget to close it br.close()
  */
 public class CheckedExceptionDemo  {

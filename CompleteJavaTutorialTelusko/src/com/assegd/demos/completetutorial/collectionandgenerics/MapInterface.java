@@ -1,6 +1,7 @@
 package com.assegd.demos.completetutorial.collectionandgenerics;
 
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
 import java.util.Set;
 
@@ -16,7 +17,7 @@ public class MapInterface {
 
     public static void implementingMapUsingHashMap() {
         System.out.println("Implementing Map using HashMap which is not synchronized - not ordered");
-        System.out.println("if you dont want Thread safety go for HashMap");
+        System.out.println("if you don't want Thread safety go for HashMap");
         Map<String, String> map = new HashMap<>();
         map.put("myName", "Assegd");
         map.put("actor", "John");
@@ -40,7 +41,7 @@ public class MapInterface {
     public static void implementingMapUsingHashTable() {
         System.out.println("Implementing Map using HashTable which is synchronized ordered");
         System.out.println("if you  want Thread safety go for HashTable: ");
-        Map<String, String> map = new HashMap<>();
+        Map<String, String> map = new Hashtable<>();
         map.put("myName", "Assegd");
         map.put("actor", "John");
         map.put("ceo", "Marissa");

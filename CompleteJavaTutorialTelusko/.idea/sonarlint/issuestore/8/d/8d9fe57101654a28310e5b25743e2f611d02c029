@@ -1,0 +1,27 @@
+
+]
+java:S1192"GDefine a constant instead of duplicating this literal "Assegd" 4 times.(•çëœ
+]
+java:S1192"GDefine a constant instead of duplicating this literal "myName" 4 times.(•çëœ
+\
+java:S1192"FDefine a constant instead of duplicating this literal "actor" 4 times.(Ìî¯¹
+Z
+java:S4143"DVerify this is the key that was intended; it was already set before.(È¾ãà
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ü²³Õøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(÷İÂ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ù“÷â
+N	java:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŸÏ›­şÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ôŸ§±
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(Á³ş
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(Ü’Šâ
+Z
+java:S4143/"DVerify this is the key that was intended; it was already set before.(È¾ãà
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(ïë§ç
+M	java:S106*"9Replace this use of System.out or System.err by a logger.(ĞæèK
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(ù“÷â
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(µˆœÑ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(ŸÏ›­şÿÿÿÿ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(ôŸ§±
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(Á³ş
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(Ü’Šâ

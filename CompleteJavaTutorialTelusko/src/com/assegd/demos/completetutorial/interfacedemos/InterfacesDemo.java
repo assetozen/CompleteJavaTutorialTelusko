@@ -13,7 +13,7 @@ class Pen implements Writer{
 
 class Pencil implements Writer{
     public void write(){
-        System.out.println("In a Pemcil");
+        System.out.println("In a Pencil");
     }
 }
 

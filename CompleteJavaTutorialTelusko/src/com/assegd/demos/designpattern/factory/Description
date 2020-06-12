@@ -8,10 +8,10 @@ logic to the client and refer to newly created object using a common interface.
 - Example
         - we create and interface of Shape
                 - we create Shape classes implementing the Shape interface (classes like:- circle, rectangle, triangle)
-        - we create a shapeFactory class which has getShape method which accepts string shapeType(can be cirle, rectangle...)
+        - we create a shapeFactory class which has getShape method which accepts string shapeType(can be circle, rectangle...)
                 - we decide which shape object to return by comparing the shape type we pass
         - we create demo(with main method) to implement our logic
                 - we create object of shapeFactory
-                -we create as an exmple object of Circle using Shape(interface)
+                -we create as an example object of Circle using Shape(interface)
                         Shape shape1 = shapeFactory.getShape("Circle")
-                        shape1.draw() -> will say that it is draw from cirle class
+                        shape1.draw() -> will say that it is draw from circle class

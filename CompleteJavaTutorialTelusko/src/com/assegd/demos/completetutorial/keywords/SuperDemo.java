@@ -34,7 +34,7 @@ class B extends A{
 
 public class SuperDemo {
     public static void main(String[] args) {
-        System.out.println("Calls defalt const of class B and Super class A");
+        System.out.println("Calls default const of class B and Super class A");
         A objA = new A(); //calls only constructor of class A
         B objB = new B(); // calls constructor of class B and its super class A
 

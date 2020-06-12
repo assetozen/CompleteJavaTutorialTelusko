@@ -3,7 +3,7 @@ package com.assegd.demos.completetutorial.otherbasicconcepts;
 import java.util.Scanner;
 
 /**
- * No bulcky code
+ * No bulky code
  * No need to handle Exception
  * It is easy and Simple
  * It has many util methods to handle all data types
@@ -15,7 +15,7 @@ public class UserInputUsingScannerDemo {
         Scanner scanner = new Scanner(System.in);
 
         n = scanner.nextInt();
-        System.out.println(n);
+        System.out.println("The value you entered is:- "+ n);
 
     }
 }

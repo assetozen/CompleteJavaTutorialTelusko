@@ -12,7 +12,6 @@ public class ArrayDemo {
     }
 
     public static void showArrayValuesUsingEnhancedForLoop() {
-
         System.out.println("Display values of an array using enhanced for loop");
         int values[] = {1,2,3,4};
 
@@ -23,13 +22,13 @@ public class ArrayDemo {
 
 
     public static void showArrayValues() {
-        int nums[] = new int[4];
+        int[] nums = new int[4];
         int values[] = {1,2,3,4}; // you can also specify the values if u know them prehand
         nums[0] = 23;
         nums[1] = 33;
         nums[2] = 44;
         nums[3] = 55;
-        //you can updated each element
+        //you can update each element
         nums[2] = 99;
 
         for (int i = 0; i < 4; i++) {
@@ -43,7 +42,7 @@ public class ArrayDemo {
 
     public static void arrayOfObjects(){
 
-        System.out.println("Display Array of Students' name ");
+        System.out.println("Display Array of Student Object names ");
         Student s1 = new Student("1","Sara","Female");
         Student s2 = new Student("2","Hana","Female");
         Student s3 = new Student("3","Kebede","Male");

@@ -5,7 +5,7 @@ public class ExceptionDemo {
        try {
            int i = 9/0;
        }catch (ArithmeticException e){
-           System.out.println("Error "+ e.getCause());
+           System.out.println("Error "+ e.getMessage());
        }finally {
            System.out.println("Bye"); // this will be printed either u have error or not
        }

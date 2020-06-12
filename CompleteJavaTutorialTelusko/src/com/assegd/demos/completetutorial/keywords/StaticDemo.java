@@ -26,7 +26,7 @@ class Emp{
     static String ceo = "Noah"; //will be commonly shared by all the objects of this class any change will apply to all instance values
     static String company;
 
-    //static block will be excuted only once when the class loads
+    //static block will be executed only once when the class loads
     {
         company = "ABC Software Company";
     }

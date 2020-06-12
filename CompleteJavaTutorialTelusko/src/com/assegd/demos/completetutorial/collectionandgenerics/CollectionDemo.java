@@ -27,7 +27,7 @@ public class CollectionDemo {
     }
 
     private static void listImpl() {
-        System.out.println("\n\n List is used because collection doesnt have index number");
+        System.out.println("\n\n List is used because collection doesn't have index number");
         List values = new ArrayList();
         values.add(4);
         values.add(6);

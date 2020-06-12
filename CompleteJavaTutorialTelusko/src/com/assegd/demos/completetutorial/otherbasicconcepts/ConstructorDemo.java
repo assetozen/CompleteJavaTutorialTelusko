@@ -10,7 +10,7 @@ public class ConstructorDemo {
 }
 
 class Calc{
-    int num1, num2, result;
+    int num1, num2;
     public Calc(){
         System.out.println("Calls the default constructor");
     };
@@ -19,6 +19,5 @@ class Calc{
         System.out.println("Calls constructor with 2 int values as parameter and initializes them to the objects num1 and num2 values");
         this.num1 = num1;
         this.num2 = num2;
-
     }
 }

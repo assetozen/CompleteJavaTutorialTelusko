@@ -1,5 +1,6 @@
 package com.assegd.demos.designpattern.adaptor;
 
+
 /**
  * Assuming that we need to implement the methods of this class in School class but we only have the access of "class file" of this class
  * so we need to create another class which serves as an adaptor to access this class

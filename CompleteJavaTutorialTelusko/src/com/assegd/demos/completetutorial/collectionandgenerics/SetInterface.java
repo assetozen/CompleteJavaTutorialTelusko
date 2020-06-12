@@ -5,7 +5,7 @@ import java.util.TreeSet;
 
 /**
  * Set supports only unique element
- * fetching values doesnt follow sequence
+ * fetching values doesn't follow sequence
  */
 public class SetInterface {
     public static void main(String[] args) {

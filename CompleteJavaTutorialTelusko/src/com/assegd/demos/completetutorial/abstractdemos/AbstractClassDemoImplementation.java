@@ -2,7 +2,7 @@ package com.assegd.demos.completetutorial.abstractdemos;
 
 /**
  *Instead of creating many methods which accept different types of number values like int,double,float...
- * we are using the abstract calss "Number" which can accept any number value
+ * we are using the abstract class "Number" which can accept any number value
  * --- w
  */
 

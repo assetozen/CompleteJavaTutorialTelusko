@@ -6,11 +6,11 @@
 - used when we want to have an object which wants to represent a tree structure
             Example: Assembling a computer
                     computer                                        [composite object]
-                            -   cabinet                             [composite object]
-                                    - harddisk                          [Leaf object :- doesnt have anything in side it(it is the last object)]
-                                    - mother board                  [composite object]
-                                            - RAM                       [Leaf object :- doesnt have anything in side it(it is the last object)]
-                                            - CPU                       [Leaf object :- doesnt have anything in side it(it is the last object)]
+                            - cabinet                               [composite object]
+                                    - hard disk                     [Leaf object :- doesn't have anything in side it(it is the last object)]
+                                    - motherboard                   [composite object]
+                                            - RAM                       [Leaf object :- doesn't have anything in side it(it is the last object)]
+                                            - CPU                       [Leaf object :- doesn't have anything in side it(it is the last object)]
                             - peripheral devices                    [composite object]
-                                    - mouse                             [Leaf object :- doesnt have anything in side it(it is the last object)]
-                                    - keyboard                          [Leaf object :- doesnt have anything in side it(it is the last object)]
+                                    - mouse                             [Leaf object :- doesn't have anything in side it(it is the last object)]
+                                    - keyboard                          [Leaf object :- doesn't have anything in side it(it is the last object)]

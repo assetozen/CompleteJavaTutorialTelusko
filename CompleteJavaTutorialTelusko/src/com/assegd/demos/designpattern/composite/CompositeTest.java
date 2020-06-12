@@ -28,6 +28,15 @@ public class CompositeTest {
 
         ph.showPrice();
 
+        System.out.println("");
+        mb.showPrice();
+
+        System.out.println("");
+        cabinet.showPrice();
+
+        System.out.println("");
+        computer.showPrice();
+
 
 
 
