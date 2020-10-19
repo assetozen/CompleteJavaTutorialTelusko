@@ -1,13 +1,13 @@
 
 
 Builder patter
-- simplifies funtionality
+- simplifies functionality
 - for this example case
-    - we have created a phonBuilder class
+    - we have created a phoneBuilder class
         - it has setters for all the phone object properties
-        - when createing the phone object
+        - when creating the phone object
             - not necessary to put all properties
             - u can only pass the property values u want
             - no sequence is needed
-        - in shop class we are creating phone object and assinging all the properties using
+        - in shop class we are creating phone object and assigning all the properties using
         the phoneBuilder instance
