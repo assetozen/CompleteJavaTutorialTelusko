@@ -34,8 +34,13 @@ public class MultiThreadingRunnableInterfaceDemo {
 
         Thread t1 = new Thread(obj1);
         Thread t2 = new Thread(obj2);
+        
+        System.out.println("Excuting both objects using run() method of Runnable");
+        obj1.run();
+        obj2.run();
 
-
+        System.out.println();
+        System.out.println("Executing both objects using threads");
         t1.start();
         try{Thread.sleep(10);}catch (Exception e){}
         t2.start();
